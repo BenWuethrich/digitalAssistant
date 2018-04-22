@@ -53,7 +53,7 @@ restService.post("/audio", function(req, res) {
       break;
 	case "my favorite song":
       speech =
-        '<audio src="https://www.youtube.com/watch?v=sfw44YQdv4E">did not get your audio file</audio>';
+        '<audio src="https://mgwalperswil.ch/wp-content/uploads/2018/04/079-kurzzz.mp3">did not get your audio file</audio>';
       break;
     case "delay":
       speech =
