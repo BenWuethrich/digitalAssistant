@@ -35,6 +35,10 @@ restService.post("/audio", function(req, res) {
       speech =
         '<speak><audio src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio></speak>';
       break;
+	case "my favorite song":
+      speech =
+        '<speak><audio src="https://mgwalperswil.ch/wp-content/uploads/2018/04/079-kurzzz.mp3">did not get your audio file</audio></speak>';
+      break;
     case "music two":
       speech =
         '<speak><audio clipBegin="1s" clipEnd="3s" src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio></speak>';
@@ -50,10 +54,6 @@ restService.post("/audio", function(req, res) {
     case "music five":
       speech =
         '<audio src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio>';
-      break;
-	case "my favorite song":
-      speech =
-        '<audio src="https://mgwalperswil.ch/wp-content/uploads/2018/04/079-kurzzz.mp3">did not get your audio file</audio>';
       break;
     case "delay":
       speech =
