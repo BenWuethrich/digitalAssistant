@@ -51,6 +51,10 @@ restService.post("/audio", function(req, res) {
       speech =
         '<audio src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio>';
       break;
+	case "my favorite song":
+      speech =
+        '<audio src="https://digitalassistantpro.herokuapp.com/mp3/079.mp3">did not get your audio file</audio>';
+      break;
     case "delay":
       speech =
         '<speak>Let me take a break for 3 seconds. <break time="3s"/> I am back again.</speak>';
