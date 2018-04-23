@@ -43,6 +43,14 @@ restService.post("/audio", function(req, res) {
       speech =
         '<speak><audio src="https://mgwalperswil.ch/wp-content/uploads/2018/04/079-kurzzz.mp3">did not get your audio file</audio></speak>';
       break;
+	case "Lieblingslied":
+      speech =
+        '<speak><audio src="https://mgwalperswil.ch/wp-content/uploads/2018/04/079-kurzzz.mp3">did not get your audio file</audio></speak>';
+      break;
+	case "Was stimmt mit dir nicht":
+      speech =
+        '<speak><audio src="https://mgwalperswil.ch/wp-content/uploads/2018/04/079-kurzzz.mp3">did not get your audio file</audio></speak>';
+      break;
 	case "was stimmt bi dir nööd":
       speech =
         '<speak><audio src="http://mgwalperswil.ch/wp-content/uploads/2018/04/Hey-kurzzz.mp3">did not get your audio file</audio></speak>';
